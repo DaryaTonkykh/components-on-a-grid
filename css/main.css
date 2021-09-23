@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-family: "Patua One", Georgia;
 }
 
 *,
@@ -16,3 +17,24 @@ header {
   /* Remove the <header> box and allow us to directly apply header’s children to the grid. */
   display: contents;
 }
+
+body {
+background-color: #f2f1ed;
+margin: 0;
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+grid-template-areas:
+"banner banner"
+"main main"
+}
+h1
+
+Typefaces: Patua One, Georgia
+Text sizes: 2rem
+Line-heights: 1.5
+Colours: #fff, #f2f1ed, #30658d, #000
+Gaps: 1rem
+Margins: 1rem
+Paddings: 1rem
+Logo width: 14rem
