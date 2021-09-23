@@ -28,7 +28,17 @@ grid-template-areas:
 "banner banner"
 "main main"
 }
-h1
+
+li, h2 {
+  font-family: "Patua One", sans-serif;
+}
+
+.logo {
+  width: 14rem;
+  z-index: 1;
+  grid-column: 1;
+  grid-row: 1;
+}
 
 Typefaces: Patua One, Georgia
 Text sizes: 2rem
