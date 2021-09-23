@@ -19,14 +19,14 @@ header {
 }
 
 body {
-background-color: #f2f1ed;
-margin: 0;
-display: grid;
-grid-template-columns: 1fr 1fr;
-grid-template-rows: 1fr 1fr;
-grid-template-areas:
-"banner banner"
-"main main"
+  background-color: #f2f1ed;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+  "banner banner"
+  "main main"
 }
 
 li, h2 {
