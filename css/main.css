@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: "Patua One", Georgia;
+  line-height: 1.5;
 }
 
 *,
@@ -25,8 +26,12 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas:
-  "banner banner"
-  "main main"
+    "banner banner"
+    "main main";
+}
+
+.img-banner {
+  grid-area: banner;
 }
 
 li, h2 {
@@ -43,6 +48,7 @@ li, h2 {
 
 li {
   list-style-type: none;
+  color: #fff;
 }
 
 a {
