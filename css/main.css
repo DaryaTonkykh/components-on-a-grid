@@ -40,6 +40,15 @@ li, h2 {
   grid-row: 1;
 }
 
+li {
+  list-style-type: none;
+}
+
+a {
+  color: #fff;
+  font-size: 2rem;
+}
+
 Typefaces: Patua One, Georgia
 Text sizes: 2rem
 Line-heights: 1.5
