@@ -17,7 +17,9 @@ img {
 header {
   /* Remove the <header> box and allow us to directly apply header’s children to the grid. */
   display: contents;
+  background-color: #30658d;
 }
+
 
 body {
   background-color: #f2f1ed;
