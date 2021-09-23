@@ -38,6 +38,7 @@ li, h2 {
   z-index: 1;
   grid-column: 1;
   grid-row: 1;
+  align-self: end;
 }
 
 li {
@@ -54,11 +55,8 @@ a {
   grid-row: 1;
 }
 
-Typefaces: Patua One, Georgia
-Text sizes: 2rem
-Line-heights: 1.5
-Colours: #fff, #f2f1ed, #30658d, #000
-Gaps: 1rem
-Margins: 1rem
-Paddings: 1rem
-Logo width: 14rem
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
