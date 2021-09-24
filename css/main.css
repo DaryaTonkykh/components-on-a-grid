@@ -82,6 +82,9 @@ ul {
 
 main {
   display: contents;
+  margin: 0;
+  padding: 0;
+  column-gap: 1rem;
 }
 
 p {
