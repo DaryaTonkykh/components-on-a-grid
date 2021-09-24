@@ -18,8 +18,8 @@ header {
   /* Remove the <header> box and allow us to directly apply header’s children to the grid. */
   display: contents;
   background-color: #30658d;
-  padding: 1.5rem;
-  margin: 0;
+  padding: 0;
+  margin: 1rem;
 }
 
 body {
@@ -38,11 +38,17 @@ body {
   padding: 1rem;
 }
 
+figure {
+  padding: 1rem 0 0;
+  margin: 0;
+}
+
 li, h2 {
   font-family: "Patua One", sans-serif;
   color: #30658d;
   display: flex;
   margin: 0;
+  padding: 0;
 }
 
 .logo {
@@ -76,4 +82,15 @@ ul {
 
 main {
   display: contents;
+}
+
+p {
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  grid-area: banner;
+  grid-column: 2;
 }
