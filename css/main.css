@@ -31,6 +31,8 @@ body {
   grid-template-areas:
     "banner banner"
     "main main";
+  gap: 1rem;
+  padding: 1rem;
 }
 
 .img-banner {
@@ -78,13 +80,15 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 main {
   display: contents;
-  margin: 0;
-  padding: 0;
-  column-gap: 1rem;
+  grid-area: main;
+  grid-column: 1/-1;
+  grid-row: 2;
 }
 
 p {
@@ -95,5 +99,7 @@ p {
 
 nav {
   grid-area: banner;
+  grid-row: 1;
   grid-column: 2;
+  padding-top: 1rem;
 }
